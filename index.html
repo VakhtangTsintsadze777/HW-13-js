@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- <form action="">
+            <input type="text">
+        </form> -->
+    </div>
+    <script>
+        // 1
+        let dateOfBirth = prompt(" (1) მე დავიბადე . . . წელს");
+        document.write(dateOfBirth);
+        document.write(`<br  />`);
+        // 2
+        let myNoun = "ძაღლი";
+        let myAdjective = "დიდი";
+        let myVerb = "გაიქცა";
+        let myAdverb = "სწრაფად";
+        document.write(myAdjective + " " + myNoun + " " + myAdverb + " " + myVerb);
+        // 3
+        let color = prompt("(2) ფერი");
+        let red = "არის ჩემი საყვარელი ფერი";
+        let other = "არ მომწონს";
+        document.write(`<br  />`);
+        if (color == "red"){
+            document.write("red" + " " + red);
+        }else {
+            document.write(color + " " + other);
+        };
+        // 4
+        let percent = prompt("(3) ლუწი თუ კენტი?");
+        document.write(`<br  />`);
+        if (percent % 2 === 1) {
+            document.write("კენტი");
+        }else {
+            document.write("ლუწი");
+        };
+        // 5
+        let age = prompt("შეიყვანე ასაკი")
+        document.write(`<br  />`);
+        if (age > 18){
+            document.write("სრულწლოვანი ხარ");
+        } else if (age == 18){
+            document.write("უკვე სრულწლოვანი ხარ :)");
+        }
+        else {
+            document.write("არასრულწლოვანი ხარ");
+        };
+
+    </script>
+</body>
+</html>
